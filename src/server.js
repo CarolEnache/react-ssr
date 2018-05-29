@@ -23,8 +23,6 @@ function htmlTemplate(reactDom) {
         <html>
         <head>
             <meta charset="utf-8">
-            <title>React Starter</title>
-            <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/cosmo/bootstrap.min.css" type="text/css" rel="stylesheet"/>
         </head>
         
         <body>
