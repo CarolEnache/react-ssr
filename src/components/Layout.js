@@ -5,7 +5,7 @@ export default class Layout extends Component {
         super();
 
         this.state = {
-            title: 'It works!'
+            title: 'Welcome to React SSR!'
         };
     }
 
