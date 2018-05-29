@@ -8,7 +8,7 @@
     "dev": "webpack --watch --progress & nodemon index.js",
     "linter": "eslint src",
     "bundlesize": "bundlesize",
-    "precommit": "eslint src --quiet",
+    "precommit": "eslint src --quiet"
   },
   "dependencies": {
     "react": "^16.0.0",
