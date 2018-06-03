@@ -6,22 +6,22 @@ import Secret from './components/Secret';
 export default [
     {
         path: '/',
-        componet: Home,
+        component: Home,
         exact: true
     },
     {
         path: '/about',
-        componet: About,
+        component: About,
         exact: true
     },
     {
         path: '/contact',
-        componet: Contact,
+        component: Contact,
         exact: true
     },
     {
         path: '/secret',
-        componet: Secret,
+        component: Secret,
         exact: true
     }
 ];
