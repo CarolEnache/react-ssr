@@ -13,7 +13,7 @@ const storeData = ( data ) => ({
 });
 
 export const fetchData = () => (dispatch) => 
-    fetchCircuits().then( res => disatch(storeData(res)));
+    fetchCircuits().then( res => dispatch(storeData(res)));
 
 const sessionReducer = ( state = false, action ) => {
     switch(action.type) {

@@ -28188,7 +28188,7 @@ var mapDispatchToProps = {
     fetchData: _store__WEBPACK_IMPORTED_MODULE_2__["fetchData"]
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(mapDispatchToProps, mapStateToProps)(Home));
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(mapStateToProps, mapDispatchToProps)(Home));
 
 /***/ }),
 
@@ -28312,19 +28312,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = ([{
     path: '/',
-    componet: _components_Home__WEBPACK_IMPORTED_MODULE_0__["default"],
+    component: _components_Home__WEBPACK_IMPORTED_MODULE_0__["default"],
     exact: true
 }, {
     path: '/about',
-    componet: _components_About__WEBPACK_IMPORTED_MODULE_1__["default"],
+    component: _components_About__WEBPACK_IMPORTED_MODULE_1__["default"],
     exact: true
 }, {
     path: '/contact',
-    componet: _components_Contact__WEBPACK_IMPORTED_MODULE_2__["default"],
+    component: _components_Contact__WEBPACK_IMPORTED_MODULE_2__["default"],
     exact: true
 }, {
     path: '/secret',
-    componet: _components_Secret__WEBPACK_IMPORTED_MODULE_3__["default"],
+    component: _components_Secret__WEBPACK_IMPORTED_MODULE_3__["default"],
     exact: true
 }]);
 
@@ -28364,7 +28364,7 @@ var storeData = function storeData(data) {
 var fetchData = function fetchData() {
     return function (dispatch) {
         return Object(_api__WEBPACK_IMPORTED_MODULE_2__["fetchCircuits"])().then(function (res) {
-            return disatch(storeData(res));
+            return dispatch(storeData(res));
         });
     };
 };
